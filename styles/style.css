@@ -258,14 +258,12 @@ ol {
   outline: none;
 }
 
-.button:active {
-  color: #545050;
-  background-color: currentColor;
+
+.button:active, .content__card-link:active  {
+  background-color: #545050;
 }
 
-.content__card-link:active {
-  background-color: currentColor;
-}
+
 
 .button:hover {
   color: #fff;
@@ -277,7 +275,7 @@ ol {
 }
 
 .button:focus-visible {
-  outline: 1px solid #fff;
+  outline: 1px solid currentColor;
   outline-offset: 1px;
 }
 
