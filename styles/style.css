@@ -258,12 +258,10 @@ ol {
   outline: none;
 }
 
-
-.button:active, .content__card-link:active  {
+.button:active,
+.content__card-link:active {
   background-color: #545050;
 }
-
-
 
 .button:hover {
   color: #fff;
